@@ -1,0 +1,61 @@
+body {
+    background-color: rgb(223, 194, 144);
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 415.88px;
+    width: 406.88px;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 20px;
+    border: 2px solid rgba(137, 121, 121, 0.41);
+    background-color: rgb(122, 71, 210);
+    max-width: 406.88px;
+    text-justify: auto;
+}
+
+.ml{
+    margin-top: -7px;
+    margin-left: 25px;
+}
+
+.main p {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-justify: auto;
+}
+
+h2 {
+    font-size: 34px;
+}
+
+.caffeineAmount {
+    font-weight: bold;
+    color: red;
+}
+
+.desc {
+    font-style: italic;
+    font-size: 12px;
+}
+
+
+input {
+    max-width: 47.5px;
+    text-decoration: none;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
